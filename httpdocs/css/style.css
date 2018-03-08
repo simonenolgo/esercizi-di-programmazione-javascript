@@ -57,7 +57,7 @@ section .bg {
     left: 0;
     right: 0;
     height: 200%;
-    top: 0;
+    top: -33%;
     z-index: 0;
     transition: transform .0s linear;
 }

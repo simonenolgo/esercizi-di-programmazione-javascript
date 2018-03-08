@@ -58,14 +58,16 @@ jQuery(document).ready(function ($) {
 
         setActiveSection();
 
+        $(window).scroll(setActiveSection);
 
-        if (typeDevice == 'desktop') {
-            $(window).scroll(setActiveSection);
-        }
-        else {
-            jQuery(window).on("touchmove", setActiveSection);
-        }
-
+        //
+        // if (typeDevice == 'desktop') {
+        //     $(window).scroll(setActiveSection);
+        // }
+        // else {
+        //     jQuery(window).on("touchmove", setActiveSection);
+        //     $(window).scroll(setActiveSection);
+        // }
 
 
 
